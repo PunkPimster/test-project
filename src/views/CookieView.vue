@@ -53,13 +53,18 @@
 
 <script>
 import { mapState } from "vuex"
+import CountrySelect from '@/components/CountrySelecter.vue'
+import LegislationSelect from '@/components/LegislationSelecter.vue'
+import ConsentSelect from '@/components/ConsentSelecter.vue'
+import BannerSelect from '@/components/BannerSelect.vue'
+
 export default {
   name: 'CookieView',
   components: {
-    'country-select': require('@/components/CountrySelecter.vue').default,
-    'legislation-select': require('@/components/LegislationSelecter.vue').default,
-    'consent-select': require('@/components/ConsentSelecter.vue').default,
-    'banner-select': require('@/components/BannerSelect.vue').default
+    'country-select': CountrySelect,
+    'legislation-select': LegislationSelect,
+    'consent-select': ConsentSelect,
+    'banner-select': BannerSelect
   },
   data () {
     return {
