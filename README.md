@@ -2,6 +2,7 @@
 
 ## Project setup
 Make sure you have node.js installed in your computer
+
 Extract the node_modules.7z folder in the same folder containing the project
 
 ### Compiles and hot-reloads for development
